@@ -1,0 +1,13 @@
+-main ApplicationMain 
+-D nme_install_tool
+-cp Source
+-lib nme
+-lib actuate
+-swf-lib Libs/away3d/library.swf
+-D web
+-swf-version 11
+-swf9 Export/flash/bin/rowcov.swf
+-swf-header 600:600:60:ffffff
+-cp Export/flash/haxe
+--no-inline
+-debug
